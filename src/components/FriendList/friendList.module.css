@@ -1,0 +1,17 @@
+.friendList {
+    display: flex;
+    background-color: rgb(222, 232, 115);
+    border-radius: 15px;
+    gap: 50px;
+}
+
+.status {
+    display: flex;
+    position: relative;
+    left: 104%;
+    bottom: -40%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: green;
+}

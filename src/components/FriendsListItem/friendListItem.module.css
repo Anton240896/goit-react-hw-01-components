@@ -1,0 +1,15 @@
+.item {}
+
+.span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.name {}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
