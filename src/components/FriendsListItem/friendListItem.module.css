@@ -1,15 +1,17 @@
-.item {}
-
-.span {
-    width: 20px;
-    height: 20px;
+.item {
     border-radius: 50%;
 }
 
 .name {}
 
-.avatar {
-    width: 20px;
-    height: 20px;
+.avatar {}
+
+.status {
+    display: flex;
+    position: relative;
+    left: 104%;
+    bottom: -40%;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
 }

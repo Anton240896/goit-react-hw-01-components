@@ -4,7 +4,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={styles.item}>
       <span
-        class={styles.status}
+        className={styles.status}
         style={{ backgroundColor: isOnline ? 'green' : 'red' }}
       >
         {isOnline}
