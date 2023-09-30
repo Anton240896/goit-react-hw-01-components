@@ -1,8 +1,12 @@
+:root {
+    --color-table: rgb(222, 232, 115);
+}
+
 .stats {
     margin-top: 40px;
     border-radius: 15px;
     box-shadow: 0 2px 8px rgba(19, 19, 19, 0.3);
-    background-color: rgb(222, 232, 115);
+    background-color: var(--color-table);
 
 }
 

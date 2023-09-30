@@ -1,6 +1,10 @@
+:root {
+    --color-table: rgb(222, 232, 115);
+}
+
 th {
     color: white;
-    background-color: rgb(20, 182, 182);
+    background-color: var(--color-table);
     width: 180px;
     height: 30px;
 }
@@ -12,5 +16,5 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(152, 198, 183);
+    background-color: var(--color-table);
 }
