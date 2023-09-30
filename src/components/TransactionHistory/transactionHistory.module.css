@@ -4,7 +4,7 @@
 
 th {
     color: white;
-    background-color: var(--color-table);
+    background-color: rgb(96, 206, 218);
     width: 180px;
     height: 30px;
 }
