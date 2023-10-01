@@ -23,3 +23,23 @@ export const Statistics = ({ title, stats }) => {
     </section>
   );
 };
+
+// export const Statistics = ({ title, stats }) => {
+//   return (
+//     <StatisticsSection>
+//       <Title>{title}</Title>
+//       <StatisticsList>
+//         {stats.map(({ id, label, percentage }) => (
+//           <Item
+//             $length={stats.length}
+//             key={id}
+//             style={{ backgroundColor: getRandomHexColor() }}
+//           >
+//             <Label>{label}</Label>
+//             <Percentage>{percentage}%</Percentage>
+//           </Item>
+//         ))}
+//       </StatisticsList>
+//     </StatisticsSection>
+//   );
+// };
