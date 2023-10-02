@@ -1,3 +1,7 @@
+:root {
+    --color-table: rgb(222, 232, 115);
+}
+
 /*body*/
 body {
     font-family: 'Courier New', Courier, monospace;
