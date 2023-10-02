@@ -1,4 +1,4 @@
-import user from 'data/user.json';
+import profile from 'data/profile.json';
 import data from 'data/data.json';
 import friends from 'data/friendList.json';
 import transactions from 'data/transactions.json';
@@ -12,11 +12,11 @@ export const App = () => {
   return (
     <div className={styles.container}>
       <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
+        username={profile.username}
+        tag={profile.tag}
+        location={profile.location}
+        avatar={profile.avatar}
+        stats={profile.stats}
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
